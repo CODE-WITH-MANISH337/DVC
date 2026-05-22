@@ -19,3 +19,9 @@
 10 Now do "dvc commit" and then "git push"---> Now data added into the S3( 2 file(1->data(Od),2-->(md5(17))))
 
 11.Now do git-commit-push origin main ( this time S3 will add ---> but in real case S3 is remote buck in aws)
+
+12. Now make changes to code.py to append a new row in data, check changes via "dvc status"
+13. Again - - "dvc commit" and then "dvc push"
+14. Then git add-commit-push (we're saving V2 of our data at this point)
+15. Check dvc/git status, everything should be upto date.
+16. Now repeat step 10-12 for v3 of data.
