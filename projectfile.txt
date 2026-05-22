@@ -13,4 +13,9 @@
 
 8.Now "dvc add data/"
 
-9.git status 
+9.git status ---> git add . --> git commit ---push to origin--->>make nothing to commit 
+
+
+10 Now do "dvc commit" and then "git push"---> Now data added into the S3( 2 file(1->data(Od),2-->(md5(17))))
+
+11.Now do git-commit-push origin main ( this time S3 will add ---> but in real case S3 is remote buck in aws)
